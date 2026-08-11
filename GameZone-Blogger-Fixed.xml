@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css="false" b:defaultwidgetversion="2" b:layoutsVersion="3" b:responsive="true" expr:dir="data:blog.languageDirection" expr:lang="data:blog.locale" xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr">
+<head>
+<meta charset="UTF-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<b:include data="blog" name="all-head-content"/>
+<title><data:blog.pageTitle/></title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<b:skin><![CDATA[
+*{box-sizing:border-box}body{margin:0;background:#f5f7fb;color:#111827;font-family:Cairo,Arial,sans-serif;line-height:1.8}a{text-decoration:none;color:inherit}img{max-width:100%;height:auto}.wrap{width:min(1180px,calc(100% - 28px));margin:auto}.top{background:#090d18;color:#aeb8cc;font-size:12px;padding:7px 0}.head{background:linear-gradient(135deg,#10172a,#252b54);color:#fff}.head .wrap{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{font-size:27px;font-weight:900}.logo i{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:13px;background:#4f46e5;font-style:normal;margin-left:8px}.logo small{display:block;font-size:10px;color:#aeb8cc;margin-right:53px;margin-top:-8px}.search{display:flex;background:#fff;border-radius:11px;overflow:hidden;width:380px}.search input{flex:1;border:0;outline:0;padding:11px;font-family:inherit}.search button{border:0;background:#4f46e5;color:#fff;padding:0 18px;font-family:inherit;font-weight:700}.nav{background:#fff;border-bottom:1px solid #e5e7eb}.nav .wrap{display:flex;overflow:auto;white-space:nowrap}.nav a{padding:13px 15px;font-size:13px;font-weight:700;color:#475569}.nav a:hover{color:#4f46e5}.hero{margin:25px 0;padding:32px;border-radius:22px;background:linear-gradient(135deg,#111827,#4338ca);color:#fff}.hero h1{margin:5px 0;font-size:32px}.hero p{color:#dbeafe;margin:0}.grid{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:22px}.title{font-size:21px;font-weight:900;margin:0 0 15px}.posts{display:grid;grid-template-columns:repeat(2,1fr);gap:17px}.card{background:#fff;border:1px solid #e5e7eb;border-radius:17px;overflow:hidden;transition:.2s}.card:hover{transform:translateY(-3px);box-shadow:0 12px 30px #0001}.thumb{height:200px;background:linear-gradient(135deg,#1e293b,#4f46e5);display:grid;place-items:center;color:#fff;font-size:32px}.thumb img{width:100%;height:100%;object-fit:cover}.info{padding:15px}.label{font-size:11px;color:#4f46e5;font-weight:800}.card h2{font-size:18px;line-height:1.5;margin:3px 0}.meta{font-size:11px;color:#64748b}.snippet{font-size:12px;color:#64748b;margin:6px 0 0}.side{background:#fff;border:1px solid #e5e7eb;border-radius:17px;padding:17px;margin-bottom:17px}.side h3{margin:0 0 10px;font-size:16px}.side a{display:block;padding:8px 0;border-bottom:1px solid #f0f1f4;font-size:13px;color:#475569}.article{background:#fff;border:1px solid #e5e7eb;border-radius:17px;padding:27px}.article h1{font-size:31px;line-height:1.45;margin:0 0 8px}.article-body{font-size:16px;line-height:2}.article-body img{display:block;margin:18px auto;border-radius:12px}.article-body h2,.article-body h3{line-height:1.5}.pager{text-align:center;margin:24px}.pager a{display:inline-block;background:#fff;border:1px solid #e5e7eb;padding:7px 15px;border-radius:9px;color:#4f46e5;margin:4px;font-weight:700}footer{margin-top:45px;background:#090d18;color:#94a3b8;padding:35px 0;text-align:center}footer strong{color:#fff}@media(max-width:800px){.grid{grid-template-columns:1fr}.sidewrap{display:grid;grid-template-columns:1fr 1fr;gap:15px}.posts{grid-template-columns:1fr}.search{width:45px;background:transparent}.search input{display:none}.search button{width:45px;height:40px;border-radius:9px;font-size:0}.search button:after{content:'⌕';font-size:22px}.hero h1{font-size:25px}.article{padding:18px}.article h1{font-size:24px}}@media(max-width:520px){.sidewrap{display:block}.side{margin-bottom:15px}.logo{font-size:21px}.logo i{width:39px;height:39px}}
+]]></b:skin>
+</head>
+<body>
+<div class="top"><div class="wrap">GameZone — أخبار ومراجعات وأدلة الألعاب</div></div>
+<header class="head"><div class="wrap"><a class="logo" expr:href="data:blog.homepageUrl"><i>🎮</i>GameZone<small>مجلة الألعاب والمراجعات</small></a><form class="search" expr:action="data:blog.searchUrl" method="get"><input name="q" placeholder="ابحث عن لعبة أو خبر" type="search"/><button type="submit">بحث</button></form></div></header>
+<nav class="nav"><div class="wrap"><a expr:href="data:blog.homepageUrl">الرئيسية</a><a expr:href='data:blog.homepageUrl + "search/label/أخبار"'>أخبار الألعاب</a><a expr:href='data:blog.homepageUrl + "search/label/مراجعات"'>مراجعات</a><a expr:href='data:blog.homepageUrl + "search/label/أدلة"'>أدلة وشروحات</a><a expr:href='data:blog.homepageUrl + "search/label/PC"'>PC</a><a expr:href='data:blog.homepageUrl + "search/label/PlayStation"'>PlayStation</a><a expr:href='data:blog.homepageUrl + "search/label/Xbox"'>Xbox</a></div></nav>
+<main class="wrap">
+<b:if cond='data:blog.pageType == "index"'><section class="hero"><h1>كل ما يهمك عن عالم الألعاب في مكان واحد</h1><p>أحدث الأخبار، المراجعات، الأدلة والشروحات لعشاق الألعاب باللغة العربية.</p></section></b:if>
+<div class="grid"><section><h2 class="title"><b:if cond='data:blog.pageType == "item"'>المقال</b:if><b:if cond='data:blog.pageType != "item"'>أحدث المقالات</b:if></h2>
+<b:section id="main" showaddelement="no">
+<b:widget id="Blog1" locked="true" title="المقالات" type="Blog" version="2">
+<b:includable id="main">
+<b:loop values="data:posts" var="post">
+<b:if cond='data:blog.pageType == "item"'>
+<article class="article"><h1><data:post.title/></h1><div class="meta">📅 <data:post.timestamp/></div><div class="article-body entry-content"><data:post.body/></div></article>
+<b:else/>
+<article class="card"><a class="thumb" expr:href="data:post.url"><b:if cond="data:post.firstImageUrl"><img expr:alt="data:post.title" expr:src="data:post.firstImageUrl"/><b:else/>🎮</b:if></a><div class="info"><div class="label">GAMEZONE</div><h2><a expr:href="data:post.url"><data:post.title/></a></h2><div class="meta">📅 <data:post.timestamp/> · 💬 <data:post.numComments/></div><p class="snippet"><data:post.snippet/></p></div></article>
+</b:if>
+</b:loop>
+<div class="pager"><b:if cond="data:newerPageUrl"><a expr:href="data:newerPageUrl">← الأحدث</a></b:if><b:if cond="data:olderPageUrl"><a expr:href="data:olderPageUrl">الأقدم →</a></b:if></div>
+</b:includable>
+</b:widget>
+</b:section></section>
+<aside class="sidewrap"><div class="side"><h3>التصنيفات</h3><a expr:href='data:blog.homepageUrl + "search/label/أخبار"'>أخبار الألعاب</a><a expr:href='data:blog.homepageUrl + "search/label/مراجعات"'>مراجعات</a><a expr:href='data:blog.homepageUrl + "search/label/أدلة"'>أدلة وشروحات</a><a expr:href='data:blog.homepageUrl + "search/label/PC"'>PC</a><a expr:href='data:blog.homepageUrl + "search/label/PlayStation"'>PlayStation</a></div><b:section id="sidebar" showaddelement="yes" maxwidgets="5"/></aside>
+</div></main>
+<footer><div class="wrap"><strong>GameZone</strong><br/>مجلة عربية لأخبار الألعاب والمراجعات والأدلة.</div></footer>
+</body></html>
