@@ -1,0 +1,6 @@
+{
+  "name": "GameZone AR - قالب مدونة ألعاب ومراجعات",
+  "description": "قالب مدونة ألعاب احترافي متكامل بنفس تصميم GameZone AR مع مراجعات الألعاب، الأخبار، الأدلة والحلول، والتقييمات التفاعلية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
